@@ -1,5 +1,6 @@
 body {
   background-color: #BAF0FF;
+  list-style-position: inside;
 }
 
 img {
@@ -25,4 +26,16 @@ div.font_controller {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;*/
+}
+
+div.projects_section {
+  background-color: azure;
+}
+div.list_color ol li {
+  color: red;
+}
+
+.border_small {
+  border: 3px solid grey;
+  padding: 4px;
 }
