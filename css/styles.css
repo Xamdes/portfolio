@@ -89,8 +89,14 @@ div.about-section {
   text-decoration: underline;
 }
 
-.about-section p {
+.about-section div {
   background-color: lightcyan;
+}
+
+.about-section div p {
+  color: lightcyan;
+  background-color: black;
+  padding: 10px;
 }
 
 div.background-section {
