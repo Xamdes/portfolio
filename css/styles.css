@@ -18,18 +18,18 @@ h2 {
   text-shadow: 2px 2px black;
 }
 
-.modify-h2-navy h1 {
+.modify-header h1, .modify-header h2 {
   font-weight: 900;
-  color: red;
   font-style: italic;
   text-align: center;
 }
 
-.modify-h2-navy h2 {
-  font-weight: 900;
+.modify-header h1 {
+  color: red;
+}
+
+.modify-header h2 {
   color: navy;
-  font-style: italic;
-  text-align: center;
   text-shadow: none;
 }
 
@@ -51,21 +51,6 @@ span.color-purple {
   color: purple;
 }
 
-.font-controller-left {
-  text-align: left;
-}
-
-.font-controller-center {
-  text-align: center;
-}
-
-.border-seperator-horizontal {
-  border-bottom-style: solid;
-  border-color: black;
-  margin: .5em;
-  border-width: 4px;
-}
-
 div.container-section {
   background-color: #1300D2;
   text-align: center;
@@ -79,6 +64,7 @@ div.title-section {
 
 div.projects-section {
   background-color: #DAFFB1;
+  text-align: left;
 }
 
 div.projects-section ol li {
@@ -113,35 +99,12 @@ div.other-section ul {
   background-color: lightcyan;
 }
 
-.section-color-purple {
-  background-color: #B966FF;
-}
-
-.section-color-green {
-  background-color: #23FF80;
-}
-
-.section-color-blue {
-  background-color: #0071E2;
-}
-
-.section-color-lite-green {
-  background-color: #DAFFB1;
-}
-
 .need-padding {
   padding: 16px;
 }
 
 .border-small {
   border: 3px solid grey;
-  padding: 2px;
-  margin: 2px;
-}
-
-.border-small-no-sides {
-  border-top: 3px solid grey;
-  border-bottom: 3px solid grey;
   padding: 2px;
   margin: 2px;
 }
