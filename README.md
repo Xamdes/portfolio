@@ -1,4 +1,12 @@
-# Epicodus Day 5 Portfolio Project
+# Epicodus Day 5 Independent Project
+
+## Author
+
+Steven Colburn
+
+## Project Name
+
+Portfolio
 
 ## Created
 
@@ -20,9 +28,6 @@ HTML, CSS, Bootstrap
 
 ## Installation
 Clone from https://github.com/Xamdes/portfolio.git
-
-## Credits
-Steven Colburn
 
 ## Requirements
 
