@@ -6,3 +6,23 @@ img {
   height: auto;
   width: 12em;
 }
+
+span.color_purple {
+  color: purple;
+}
+
+div.font_controller {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.equal {
+  /*
+  Delete if not going to use
+  Makes Colunms match up together using Bootstrap
+  https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height #205
+  Best approach for Bootstap 3.x -- using CSS flexbox (and requires minimal CSS)..
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;*/
+}
