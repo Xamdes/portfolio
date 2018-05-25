@@ -3,6 +3,8 @@ body {
   list-style-position: inside;
   font-size: 1.5em;
   text-align: left;
+  padding: 16px;
+  margin: 6px;
 }
 
 h2 {
@@ -49,9 +51,12 @@ div.container-section {
 
 div.title-section {
   background-color: azure;
-  padding-top: 16px;
+  padding: 16px;
   padding-bottom: 12em;
-  padding-left: 16px;
+}
+
+.need-padding {
+  padding: 16px;
 }
 
 div.projects-section {
