@@ -6,7 +6,9 @@
 
 ## About
 
-Create a website containing information about myself and what I've learned so far at Epicodus
+Create a website containing information about myself and what I've learned so far at Epicodus.
+Created using Bootstrap classes such as container-fluid, well, panel, row and column. Features
+all projects made as of 05/25/2018. Including links to the projects GitHub Pages and their GitHub Repositories.
 
 ## Github Page located at
 
@@ -21,6 +23,20 @@ Clone from https://github.com/Xamdes/portfolio.git
 
 ## Credits
 Steven Colburn
+
+## Requirements
+
+Required HTML tags: p, h, ul, ol, li, em, strong, a, img, div, span
+
+Stylesheet (styles.css): Using cascading, box model, and floats.
+
+README contains author name, project name, description, setup instructions, link to GitHub Pages, and copyright info.
+
+Site is successfully deployed to GitHub pages.
+
+Bootstrap classes are used to style the page.
+
+Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
 
 ## License
 
