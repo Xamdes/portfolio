@@ -18,7 +18,7 @@ https://xamdes.github.io/portfolio/
 
 HTML, CSS, Bootstrap
 
-##installation
+## installation
 Clone from https://github.com/Xamdes/portfolio.git
 
 ## Credits
