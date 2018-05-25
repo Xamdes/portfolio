@@ -79,6 +79,20 @@ div.projects-section ol li {
   color: navy;
 }
 
+div.about-section {
+  background-color: #DAFFB1;
+  text-align: left;
+  padding: 10px;
+}
+
+.about-section h2 {
+  text-decoration: underline;
+}
+
+.about-section p {
+  background-color: lightcyan;
+}
+
 div.background-section {
   background-color: #DAFFB1;
   text-align: left;
