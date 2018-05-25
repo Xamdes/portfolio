@@ -56,23 +56,37 @@ div.container-section {
 }
 
 div.title-section {
-  background-color: azure;
+  background-color: lightcyan;
   padding: 16px;
-  padding-bottom: 12em;
+  padding-bottom: 10em;
 }
 
 div.projects-section {
-  background-color: #BF0011;
+  background-color: #DAFFB1;
+}
+
+div.projects-section ol li {
+  background-color: lightcyan;
 }
 
 div.background-section {
-  background-color: #23FF80;
+  background-color: #DAFFB1;
   text-align: left;
   padding: 10px;
 }
 
+div.background-section ul {
+  background-color: lightcyan;
+}
+
 div.other-section {
-  background-color: azure;
+  background-color: #DAFFB1;
+  text-align: left;
+  padding: 10px;
+}
+
+div.other-section ul {
+  background-color: lightcyan;
 }
 
 .section-color-purple {
@@ -87,6 +101,10 @@ div.other-section {
   background-color: #0071E2;
 }
 
+.section-color-lite-green {
+  background-color: #DAFFB1;
+}
+
 .need-padding {
   padding: 16px;
 }
@@ -96,7 +114,7 @@ div.other-section {
 }
 
 .list-color ul li {
-  color: black;
+  color: navy;
 }
 
 .border-small {
@@ -118,7 +136,7 @@ div.other-section {
     list-style-position: inside;
     font-size: 1em;
     text-align: left;
-    padding: 16px;
+    padding: 4px;
     margin: 6px;
   }
 }
