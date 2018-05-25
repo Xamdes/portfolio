@@ -1,20 +1,34 @@
 body {
   background-color: #BAF0FF;
   list-style-position: inside;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
 }
 
 img {
   height: auto;
   width: 12em;
+  float: none;
 }
 
-span.color_purple {
+img.float-left {
+  float: left;
+}
+
+img.float-right {
+  float: right;
+}
+
+span.color-purple {
   color: purple;
 }
 
-div.font_controller {
-  font-size: 1.2em;
-  text-align: center;
+.font-controller-left {
+  text-align: left;
 }
 
 .equal {
@@ -28,14 +42,47 @@ div.font_controller {
   flex-wrap: wrap;*/
 }
 
-div.projects_section {
+div.container-section {
+  background-color: green;
+  text-align: center;
+}
+
+div.title-section {
+  background-color: azure;
+  padding-top: 16px;
+  padding-bottom: 12em;
+  padding-left: 16px;
+}
+
+div.projects-section {
   background-color: azure;
 }
-div.list_color ol li {
+
+div.background-section {
+  background-color: azure;
+}
+
+div.other-section {
+  background-color: azure;
+}
+
+.list-color ol li {
   color: red;
 }
 
-.border_small {
+.list-color ul li {
+  color: black;
+}
+
+.border-small {
   border: 3px solid grey;
-  padding: 4px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.border-small-no-sides {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+  padding: 2px;
+  margin: 2px;
 }
