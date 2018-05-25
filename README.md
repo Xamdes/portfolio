@@ -8,6 +8,10 @@
 
 Create a website containing information about myself and what I've learned so far at Epicodus
 
+## Github Page located at
+
+https://xamdes.github.io/portfolio/
+
 ## Technology Used
 
 HTML, CSS, Bootstrap

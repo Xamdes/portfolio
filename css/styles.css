@@ -7,14 +7,30 @@ body {
   margin: 6px;
 }
 
+h1 {
+  color: black;
+  text-shadow: 2px 2px #006267;
+}
+
 h2 {
+  color: #0011FF;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.modify-h2-navy h1 {
+  font-weight: 900;
+  color: red;
+  font-style: italic;
   text-align: center;
 }
 
-h2.modify-00 {
+.modify-h2-navy h2 {
   font-weight: 900;
-  color: #0092CA;
+  color: navy;
   font-style: italic;
+  text-align: center;
+  text-shadow: none;
 }
 
 img {
@@ -69,6 +85,14 @@ div.projects-section ol li {
   background-color: lightcyan;
 }
 
+.list-color ol li {
+  color: red;
+}
+
+.list-color ul li {
+  color: navy;
+}
+
 div.background-section {
   background-color: #DAFFB1;
   text-align: left;
@@ -107,14 +131,6 @@ div.other-section ul {
 
 .need-padding {
   padding: 16px;
-}
-
-.list-color ol li {
-  color: red;
-}
-
-.list-color ul li {
-  color: navy;
 }
 
 .border-small {
