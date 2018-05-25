@@ -1,5 +1,5 @@
 body {
-  background-color: #BAF0FF;
+  background-color: black;
   list-style-position: inside;
   font-size: 1.5em;
   text-align: left;
@@ -9,6 +9,12 @@ body {
 
 h2 {
   text-align: center;
+}
+
+h2.modify-00 {
+  font-weight: 900;
+  color: #0092CA;
+  font-style: italic;
 }
 
 img {
@@ -33,19 +39,19 @@ span.color-purple {
   text-align: left;
 }
 
-.equal {
-  /*
-  Delete if not going to use
-  Makes Colunms match up together using Bootstrap
-  https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height #205
-  Best approach for Bootstap 3.x -- using CSS flexbox (and requires minimal CSS)..
-  display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;*/
+.font-controller-center {
+  text-align: center;
+}
+
+.border-seperator-horizontal {
+  border-bottom-style: solid;
+  border-color: black;
+  margin: .5em;
+  border-width: 4px;
 }
 
 div.container-section {
-  background-color: green;
+  background-color: #1300D2;
   text-align: center;
 }
 
@@ -55,20 +61,34 @@ div.title-section {
   padding-bottom: 12em;
 }
 
-.need-padding {
-  padding: 16px;
-}
-
 div.projects-section {
-  background-color: azure;
+  background-color: #BF0011;
 }
 
 div.background-section {
-  background-color: azure;
+  background-color: #23FF80;
+  text-align: left;
+  padding: 10px;
 }
 
 div.other-section {
   background-color: azure;
+}
+
+.section-color-purple {
+  background-color: #B966FF;
+}
+
+.section-color-green {
+  background-color: #23FF80;
+}
+
+.section-color-blue {
+  background-color: #0071E2;
+}
+
+.need-padding {
+  padding: 16px;
 }
 
 .list-color ol li {
@@ -90,4 +110,15 @@ div.other-section {
   border-bottom: 3px solid grey;
   padding: 2px;
   margin: 2px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #B052FF;
+    list-style-position: inside;
+    font-size: 1em;
+    text-align: left;
+    padding: 16px;
+    margin: 6px;
+  }
 }
