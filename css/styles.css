@@ -85,7 +85,8 @@ div.about-section {
   padding: 10px;
 }
 
-.about-section h2 {
+.about-section h1 {
+  color: #0011FF;
   text-decoration: underline;
 }
 
